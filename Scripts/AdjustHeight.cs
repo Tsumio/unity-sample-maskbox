@@ -71,7 +71,7 @@ public class AdjustHeight : MonoBehaviour {
 
     private void FitScrollBarValue() {
         Scrollbar bar = GameObject.Find("Scrollbar").GetComponent<Scrollbar>();
-        bar. value = 1.0f;
+        bar.value = 1.0f;
     }
 
 
